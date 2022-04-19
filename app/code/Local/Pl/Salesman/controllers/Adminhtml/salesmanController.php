@@ -3,6 +3,7 @@ class Pl_Salesman_Adminhtml_salesmanController extends Mage_Adminhtml_Controller
 {
 	public function indexAction()
 	{
+		echo "11";
 		$this->loadLayout();
 		$this->renderLayout();
 	}
