@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+        <Pl_Category>
+            <version>1.0.0</version>
+        </Pl_Category>
+    </modules>
+
+	<admin>
+        <routers>
+            <category>
+                <use>admin</use>
+                <args>
+                    <module>Pl_Category</module>
+                    <frontName>category</frontName>
+                </args>
+            </category>
+        </routers>
+    </admin>
+
+	<adminhtml>
+		<menu>
+            <category translate="title" module="category">
+                <title>Category</title>
+                <sort_order>40</sort_order>
+                <children>
+                    <manage translate="title" module="category">
+                        <title>Manage Category</title>
+                        <action>category/adminhtml_category/</action>
+                        <sort_order>0</sort_order>
+                    </manage>
+                </children>
+             </category>
+        </menu>
+
+	    <layout>
+            <updates>
+                <category>
+                    <file>category.xml</file>
+                </category>
+            </updates>
+        </layout>
+	</adminhtml>
+
+
+	<global>
+		<helpers>
+            <category>
+                <class>Pl_Category_Helper</class>
+            </category>
+        </helpers>
+        <blocks>
+            <category>
+                <class>Pl_Category_Block</class>
+            </category>
+        </blocks>
+        <models>
+            <category> 
+                <class>Pl_Category_Model</class>
+                <resourceModel>category_resource</resourceModel>
+            </category>
+
+            <category_resource>
+                <class>Pl_Category_Model_Resource</class>
+                <deprecatedNode>category_mysql4</deprecatedNode>
+                <entities>
+                    <category>
+                        <table>category</table>
+                    </category>
+                </entities>
+            </category_resource>
+        </models>
+
+        <resources> 
+            <category_setup> 
+                <setup> 
+                    <module>Pl_Category</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </category_setup>
+
+            <category_write> 
+                <connection> 
+                    <use>core_write</use>
+                </connection>
+            </category_write>
+
+            <category_read> 
+                <connection> 
+                    <use>core_read</use>
+                </connection>
+            </category_read>
+        </resources>
+	</global>
+</config>

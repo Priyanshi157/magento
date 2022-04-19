@@ -1,0 +1,354 @@
+2022-04-13T17:15:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:49+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:49+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:49+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:49+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:59+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:15:59+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:08+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:08+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:31+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:31+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:31+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:31+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:31+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:34+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:34+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:48+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:48+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:50+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:50+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:55+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:55+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:56+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:16:56+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:05+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:05+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:06+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:06+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:06+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:17:06+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:18:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:18:52+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:18:52+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:18:52+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:18:52+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:18:52+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:32+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:32+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:32+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:32+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:32+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:48+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:22:48+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:12+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:12+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:16+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:23+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:23+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:23+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:23+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:50+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:50+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:50+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:51+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:51+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:23:56+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:03+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:03+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:04+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:24:04+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:45+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:45+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:45+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:48+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:54+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:54+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:54+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:54+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:54+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:54+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:55+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:55+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:55+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:27:59+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:04+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:04+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:05+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:05+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:05+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:05+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:08+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:13+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:13+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 13: parser error : XML declaration allowed only at the start of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:14+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:14+00:00 ERR (3): Warning: simplexml_load_string():      ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 14: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:14+00:00 ERR (3): Warning: simplexml_load_string(): &lt;config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-13T17:28:14+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:21+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:29+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:20:35+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:45+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:21:55+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:14+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:20+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 56: parser error : Opening and ending tag mismatch: event line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 63: parser error : Opening and ending tag mismatch: global line 55 and catalog_product_save_before  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string():             &lt;/catalog_product_save_before&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string():                                           ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: config line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 66: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;helpers&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:24:59+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: event line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 133: parser error : Opening and ending tag mismatch: global line 55 and adminhtml  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/adminhtml&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 134: parser error : Opening and ending tag mismatch: config line 55 and global  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/global&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): 	         ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 135: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:45:23+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 64: parser error : Opening and ending tag mismatch: event line 55 and events  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/events&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 133: parser error : Opening and ending tag mismatch: global line 55 and adminhtml  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/adminhtml&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 134: parser error : Opening and ending tag mismatch: config line 55 and global  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/global&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): 	         ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 135: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:34+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 133: parser error : Opening and ending tag mismatch: global line 54 and adminhtml  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/adminhtml&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string():                     ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 134: parser error : Opening and ending tag mismatch: config line 54 and global  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/global&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): 	         ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 135: parser error : Extra content at the end of the document  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-18T12:46:46+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-19T06:09:34+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 76: parser error : Opening and ending tag mismatch: pproduct line 76 and product  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-19T06:09:34+00:00 ERR (3): Warning: simplexml_load_string():                     &lt;pproduct&gt;Pl_Product_Model_Catalog_Product&lt;/product&gt;  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-19T06:09:34+00:00 ERR (3): Warning: simplexml_load_string():                                                                         ^  in C:\xampp7\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510

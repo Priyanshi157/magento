@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<layout version="0.1.0">
+	<vendor_index_index>
+		<reference name="content">
+			<block type="vendors/vendor" name="template_file" template="vendor/vendor.phtml">
+			</block>
+		</reference>
+	</vendor_index_index>
+
+	<vendor_index_editData>
+		<reference name="content">
+			<block type="vendors/vendor" name="template_file" template="vendor/edit.phtml">
+			</block>
+		</reference>
+	</vendor_index_editData>
+
+</layout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+        <Pl_Product>
+            <version>1.0.0</version>
+        </Pl_Product>
+    </modules>
+
+	<admin>
+        <routers>
+            <product>
+                <use>admin</use>
+                <args>
+                    <module>Pl_Product</module>
+                    <frontName>product</frontName>
+                </args>
+            </product>
+            <!-- <adminhtml> 
+                <args> 
+                    <modules> 
+                        <Pl_Product before="Mage_Adminhtml">Pl_Product</Pl_Product>
+                    </modules>
+                </args>
+            </adminhtml> -->
+        </routers>
+    </admin>
+
+	<adminhtml>
+		<menu>
+            <product translate="title" module="product">
+                <title>Product</title>
+                <sort_order>40</sort_order>
+                <children>
+                    <manage translate="title" module="product">
+                        <title>Manage Product</title>
+                        <action>product/adminhtml_product/</action>
+                        <sort_order>0</sort_order>
+                    </manage>
+                </children>
+             </product>
+        </menu>
+
+	    <layout>
+            <updates>
+                <product>
+                    <file>product.xml</file>
+                </product>
+            </updates>
+        </layout>
+	</adminhtml>
+
+
+	<global>
+		<helpers>
+            <product>
+                <class>Pl_Product_Helper</class>
+            </product>
+            <!-- <adminhtml>
+                <rewrite>
+                    <catalog_product> 
+                        <data>Pl_Product_Helper_Catalog_Data</data>
+                    </catalog_product>
+                </rewrite>
+            </adminhtml> -->
+        </helpers>
+        <blocks>
+            <product>
+                <class>Pl_Product_Block</class>
+            </product>
+            <!-- <adminhtml>
+                <rewrite>
+                    <catalog_product_grid>Pl_Product_Block_Catalog_Product_Grid</catalog_product_grid>
+                </rewrite>
+            </adminhtml> -->
+        </blocks>
+        <models>
+            <product> 
+                <class>Pl_Product_Model</class>
+                <resourceModel>product_resource</resourceModel>
+            </product>
+            <!-- <catalog> 
+                <rewrite> 
+                    <product>Pl_Product_Model_Catalog_Product</product>
+                </rewrite>
+            </catalog> -->
+
+            <product_resource>
+                <class>Pl_Product_Model_Resource</class>
+                <deprecatedNode>product_mysql4</deprecatedNode>
+                <entities>
+                    <product>
+                        <table>product</table>
+                    </product>
+                </entities>
+            </product_resource>
+        </models>
+
+        <resources>
+            <product_setup> 
+                <setup> 
+                    <module>Pl_Product</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </product_setup>
+
+            <product_write> 
+                <connection> 
+                    <use>core_write</use>
+                </connection>
+            </product_write>
+
+            <product_read> 
+                <connection> 
+                    <use>core_read</use>
+                </connection>
+            </product_read>
+        </resources>
+
+        <events>
+            <product_before_save>
+                <observers>
+                    <Pl_Product_Model_Observer>
+                        <type>singleton</type>
+                        <class>Pl_Product_Model_Observer</class>
+                        <method>saveProductObserve</method>
+                    </Pl_Product_Model_Observer>
+                </observers>
+            </product_before_save>
+        </events>
+	</global>
+</config>
