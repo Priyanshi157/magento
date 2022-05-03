@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <process_adminhtml_upload_execute>
+        <reference name="content">
+            <block type="process/adminhtml_upload" name="process" template="process/upload.phtml"></block>
+        </reference>
+    </process_adminhtml_upload_execute>
+</layout>

@@ -1,0 +1,8 @@
+<?xml vesion="1.0" ?>
+<layout>
+	<salesman_index_index>
+		<reference name="content">
+			<block type="salesman/index" name="salesman_index"></block>
+		</reference>
+	</salesman_index_index>
+</layout>
