@@ -16,6 +16,26 @@
 			</salesman>
 		</routers>
 	</admin>
+
+    <frontend>
+        <routers>
+            <salesman>
+                <use>standard</use>
+                <args>
+                    <module>Pl_Salesman</module>
+                    <frontName>salesman</frontName>
+                </args>
+            </salesman>
+        </routers>
+        <layout>
+            <updates>
+                <salesman>
+                    <file>salesman.xml</file>
+                </salesman>
+            </updates>
+        </layout>
+    </frontend>
+
 	<adminhtml>
 		<menu>
 	        <salesman translate="title" module="salesman">

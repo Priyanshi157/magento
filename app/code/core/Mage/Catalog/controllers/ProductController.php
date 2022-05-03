@@ -161,6 +161,7 @@ class Mage_Catalog_ProductController extends Mage_Core_Controller_Front_Action
         $this->renderLayout();
     }
 
+
     /**
      * Display product image action
      *

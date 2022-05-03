@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Pl_Process>
+            <version>1.0.4</version>
+        </Pl_Process>
+    </modules>
+    <admin>
+        <routers>
+            <process>
+                <use>admin</use>
+                <args>
+                    <module>Pl_Process</module>
+                    <frontName>process</frontName>
+                </args>
+            </process>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <process translate="title" module='process'>
+                <title>Process</title>
+                <sort_order>70</sort_order>
+                <children>
+                    <item translate='title' module='process'>
+                        <title>Manage Group</title>
+                        <action>process/adminhtml_group/</action>
+                    </item>
+                    <process translate='title' module='process'>
+                        <title>Manage Process</title>
+                        <action>process/adminhtml_process</action>
+                    </process>
+                    <column translate='title' module='process'>
+                        <title>Manage Column</title>
+                        <action>process/adminhtml_column</action>
+                    </column>
+                    <entry translate='title' module='process'>
+                        <title>Manage Entry</title>
+                        <action>process/adminhtml_entry</action>
+                    </entry>
+
+                </children>
+            </process>
+        </menu>
+        <layout>
+            <updates>
+                <process>
+                    <file>process.xml</file>
+                </process>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <helpers>
+            <process>
+                <class>Pl_Process_Helper</class>
+            </process>
+        </helpers>
+        <blocks>
+            <process>
+                <class>Pl_Process_Block</class>
+            </process>
+        </blocks>
+        <models>
+            <process>
+                <class>Pl_Process_Model</class>
+                <resourceModel>process_resource</resourceModel>
+            </process>
+            <process_resource>
+                <class>Pl_Process_Model_Resource</class>
+                <deprecatedNode>process_mysql4</deprecatedNode>
+                <entities>
+                    <process>
+                        <table>process</table>
+                    </process>
+                    <process_group>
+                        <table>process_group</table>
+                    </process_group>
+                    <process_column>
+                        <table>process_column</table>
+                    </process_column>
+                    <process_entry>
+                        <table>process_entry</table>
+                    </process_entry>
+                    <process_page>
+                        <table>page</table>
+                    </process_page>
+                </entities>
+            </process_resource>
+        </models>
+        <resources>
+            <process_setup>
+                <setup>
+                    <module>Pl_Process</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </process_setup>
+            <process_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </process_write>
+            <process_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </process_read>
+        
+        </resources>
+                
+    </global>
+</config>

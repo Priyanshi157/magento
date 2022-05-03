@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Pl_Process>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Pl_Process>
+    </modules>
+</config>
