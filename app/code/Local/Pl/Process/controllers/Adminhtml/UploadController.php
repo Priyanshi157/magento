@@ -89,64 +89,93 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
 
     public function executeAction()
     {
-        $this->loadLayout();
+        try
+        {
+            $this->_prepareProcessEntryVariable();
+            $this->loadLayout();
+            $this->renderLayout();
+        }
+        catch(Exception $e)
+        {
+            $sessionProcessEntry = Mage::getSingleton('core/session')->getProcessEntryVariable();
+            if(empty($sessionProcessEntry))
+            {
+                Mage::getSingleton('adminhtml/session')->addError('adminhtml/session')->addError($e->getMessage());
+            }
+            else
+            {
+                Mage::getSingleton('adminhtml/session')->addSuccess("Data executed successfully.");
+                Mage::getSingleton('core/session')->clear();
+            }
+            $this->_redirect('process/adminhtml_process/index');
+        }
+    }
+
+    public function _prepareProcessEntryVariable()
+    {
         $processId = $this->getRequest()->getParam('id');
         $process = Mage::getModel('process/process')->load($processId);
+        $sessionProcessEntry = [
+            'processId' => $process,
+            'totalCount' => 0,
+            'perRequestCount' => 0,
+            'totalRequest' => 0,
+            'currentRequest' => 0
+        ];
         $entry = Mage::getModel('process/entry');
         $select = $entry->getCollection()
-                ->getSelect()
-                ->reset(Zend_Db_Select::COLUMNS)
-                ->columns(['data'])
-                ->where('process_id = ?', $processId);
-        $entryData = $entry->getResource()->getReadConnection()->fetchAll($select);
-        $totalCount = count($entryData);
-        $perRequestCount = $process->getData()['perRequestCount'];
-        $totalRequest = $totalCount/$perRequestCount;
-        $currentRequest = 1;
-        Mage::getSingleton('core/session')->setMyVariable(['processId' => $processId,'totalCount' => $totalCount,'perRequestCount' => $perRequestCount,'totalRequest' => $totalRequest,'currentRequest' => $currentRequest]);
-        $this->renderLayout();
+                    ->getSelect()
+                    ->reset(Zend_Db_Select::COLUMNS)
+                    ->columns(['count(entry_id)'])
+                    ->where('start_time IS NULL');
+        $entryData = $entry->getResource()->getReadConnection()->fetchOne($select);
+        if(!$entryData)
+        {
+            throw new Exception("No record available.", 1);
+        }
+        $sessionProcessEntry['totalCount'] = $entryData;
+        $sessionProcessEntry['perRequestCount'] = $process->getData()['per_request_count'];
+        $sessionProcessEntry['totalRequest'] = ceil($sessionProcessEntry['totalCount'] / $sessionProcessEntry['perRequestCount']);
+        $sessionProcessEntry['currentRequest'] = 1;
+        Mage::getSingleton('core/session')->setProcessEntryVariable($sessionProcessEntry);
     }
 
     public function processEntryAction()
     {
         try 
         {
-            $session = Mage::getSingleton('core/session')->getMyVariable();
-            $processId = $session['processId'];
-            $totalCount = $session['totalCount'];
-            $perRequestCount = $session['perRequestCount'];
-            $totalRequest = $session['totalCount'];
-            $currentRequest = $session['currentRequest'];
-
-            $process = Mage::getModel('process/process')->load($processId);
-            $entry = Mage::getModel('process/entry');
-            $select = $entry->getCollection()
-                ->getSelect()
-                ->reset(Zend_Db_Select::COLUMNS)
-                ->columns(['data'])
-                ->where('process_id = ?', $processId)
-                ->limit($perRequestCount,$currentRequest);
-            $data = $entry->getResource()->getReadConnection()->fetchAll($select);
-            foreach ($data as $key => $row) 
+            $response = [
+                'status' => "success",
+                'reload' => false,
+                'message' => null,
+                'current' => null,
+            ];
+            $reload = false;
+            $sessionProcessEntry = Mage::getSingleton('core/session')->getProcessEntryVariable();
+            $process = $sessionProcessEntry['processId'];
+            if(!$process)
             {
-                $data[$key] = json_decode($row['data']);
+                throw new Exception("No process found.", 1);
             }
 
-            foreach ($data as $key => $row) 
-            {
-                $model = Mage::getModel($process->getRequestModel());
-                $model->setData('name',$row->name);
-                $model->setData('email',$row->email);
-                $model->setData('mobile',$row->mobile);
-                $model->save();
+            $requestModel = Mage::getModel($process->getData('request_model'));
+            if(!$requestModel){
+                throw new Exception("Request model not found", 1);
             }
 
-            if($totalCount > $perRequestCount*($currentRequest+1))
+            $requestModel->setProcess($process)->execute();
+            //sleep(2);
+            $response['message'] = 'Complete '.$sessionProcessEntry['currentRequest'] . " out of ".$sessionProcessEntry['totalRequest'];
+            $response['current'] = $sessionProcessEntry['currentRequest'] + 1;
+            if($sessionProcessEntry['currentRequest'] == $sessionProcessEntry['totalRequest'])
             {
-                echo false;
+                $response['reload'] = true;
             }
-            echo true;
-        } 
+
+            $sessionProcessEntry['currentRequest'] += 1;
+            $this->getResponse()->setBody(mage::helper('core')->jsonEncode($response));
+            Mage::getSingleton('core/session')->setProcessEntryVariable($sessionProcessEntry);
+        }
         catch (Exception $e) 
         {
             Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
