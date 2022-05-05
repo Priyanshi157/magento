@@ -11,23 +11,36 @@
         execute : function(){
             const self = this;
             $.ajax({
-                url: "<?php echo Mage::getUrl('process/adminhtml_upload/processEntry/key',[]); ?>",
-                type: 'GET',
-                data: {'key' : '8bb3f1bd6484d0d3b957f5685694db56'},
+                url: "<?php echo Mage::getUrl('process/adminhtml_upload/processEntry/'); ?>",
+                type: 'POST',
+                data: $('#processForm').serialize(),
+                dataType: 'json',
                 success: function(data){
-                    alert(data);
-                    console.log(data);
-                    // self.manageElemants(data.elements);
+                    if(data.message){
+                        $('#process').html(data.message);
+                    }
+                    if(data.status == "success" && data.reload == false){
+                        self.execute();
+                    }
+                    else if(data.status == "success" && data.reload == true){
+                        location.reload(true);
+                    }
+                    else if(data.status == "failure")
+                    {
+                        location.reload();
+                    }
                 }             
             });
-        }
+        },
     }
     </script>
 </head>
 <body>
-    <h1>Processing</h1>
-    <p><?php echo Mage::getUrl('process/adminhtml_process_upload/processEntry',[]); ?></p>
-    <p><?php echo $this->getRequest()->getParam('id') ?></p>
+    <form action="#" method="post" id="processForm">
+        <input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>">
+    </form>
+    <h1 id="process">Processing</h1>
+    
     <script type="text/javascript">
         admin.execute();
     </script>
