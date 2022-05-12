@@ -20,6 +20,16 @@ class Pl_Category_Block_Adminhtml_Category_Index_Edit_Tab_Form extends Mage_Admi
          'values' => $this->selectPaths()
         ));
 
+        $fieldset->addField('description', 'text', array(
+         'label' => Mage::helper('category')->__('Description'),
+         'name' => 'description',
+        ));
+
+        $fieldset->addField('link', 'text', array(
+         'label' => Mage::helper('category')->__('Link'),
+         'name' => 'link',
+        ));
+
         $fieldset->addField('status', 'select', array(
         'label' => Mage::helper('category')->__('Status'),
         'name' => 'status',

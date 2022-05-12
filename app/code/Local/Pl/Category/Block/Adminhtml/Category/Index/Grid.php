@@ -36,6 +36,16 @@ class Pl_Category_Block_Adminhtml_Category_Index_Grid extends Mage_Adminhtml_Blo
             'header' => Mage::helper('category')->__('Name'),
             'index' => 'name',
         ));
+
+        $this->addColumn('description', array(
+            'header' => Mage::helper('category')->__('Description'),
+            'index' => 'description',
+        ));
+
+        $this->addColumn('link', array(
+            'header' => Mage::helper('category')->__('Link'),
+            'index' => 'link',
+        ));
         
         $this->addColumn('status', array(
         'header' => Mage::helper('category')->__('Status'),

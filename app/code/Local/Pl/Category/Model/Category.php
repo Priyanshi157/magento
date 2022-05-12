@@ -16,9 +16,12 @@ class Pl_Category_Model_Category extends Mage_Core_Model_Abstract
         	$name;
         $select = $this->getCollection()->getSelect()->where("category_id = ?",$path1);
         $data = $this->getResource()->getReadConnection()->fetchAll($select);
-            if($path1 != $category_id){
+            if($path1 != $category_id)
+            {
                 $finalPath .= $data[0]['name'] ."=>";
-            }else{
+            }
+            else
+            {
                 $finalPath .= $data[0]['name'];
             }
         }

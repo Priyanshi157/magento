@@ -47,6 +47,13 @@ class Pl_Process_Block_Adminhtml_Column_Grid extends Mage_Adminhtml_Block_Widget
 			'index'     => 'process_id',
 		));   
 
+		$this->addColumn('sample_data', array(
+			'header'    => Mage::helper('process')->__('Sample Data'),
+			'align'     =>'right',
+			'width'     => '50px',
+			'index'     => 'sample_data',
+		));   
+
 		$this->addColumn('required', array(
 			'header'    => Mage::helper('process')->__('Is Required?'),
 			'align'     =>'right',

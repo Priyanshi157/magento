@@ -84,6 +84,7 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 		$this->datas = $datas;
 		return $this;
 	}
+
 	public function getDatas()
 	{
 		return $this->datas;
@@ -177,8 +178,8 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     {
     	$uploader = new Varien_File_Uploader('file_name');
 		$uploader->setAllowRenameFiles(false)
-		->setAllowedExtensions(['csv'])
-		->setAllowCreateFolders(true);
+		  ->setAllowedExtensions(['csv'])
+		  ->setAllowCreateFolders(true);
 		$uploader->save($this->getFilePath(),$this->getProcess()->getFileName());
 		return true;
     }
@@ -232,15 +233,15 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         return array_filter($requiredColumns);
     }
 
-    public function getColumnsName()
-    {
-    	$processColumns = array_map(function ($row)
-        {
-        		return $row['name'];
-        }, $this->getProcessColumns());
-        return $processColumns;
+    // public function getColumnsName()
+    // {
+    // 	$processColumns = array_map(function ($row)
+    //     {
+    //     		return $row['name'];
+    //     }, $this->getProcessColumns());
+    //     return $processColumns;
        
-    }
+    // }
 
     public function validateHeader()
     {
@@ -250,12 +251,12 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         {
         	throw new Exception("Missing header(s) : ".implode(',', $invalidHeaders), 1);
         }
-        $processColumnNameArray = $this->getColumnsName();
-        $extraHeaders = array_diff($this->getHeaders(),$processColumnNameArray);
-        if ($extraHeaders) 
-        {
-        	throw new Exception("Extra header(s) : ".implode(',', $extraHeaders), 1);
-        }
+        //$processColumnNameArray = $this->getColumnsName();
+        // $extraHeaders = array_diff($this->getHeaders(),$processColumnNameArray);
+        // if ($extraHeaders) 
+        // {
+        // 	throw new Exception("Extra header(s) : ".implode(',', $extraHeaders), 1);
+        // }
         return true;
     }
 
@@ -275,7 +276,8 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     		} 
     		catch (Exception $e) 
     		{
-    			$this->addInvalidData($key,$value);
+                $this->currentRow['message'] = $e->getMessage();
+    			$this->addInvalidData($key,$this->currentRow);
     			unset($data[$key]);
     		}
     	}
@@ -290,18 +292,23 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     		'identifier' => $this->getIdentifier($row),
     		'data' 	=> null
     	];
-    	$tableRow = [];
+    	$tableRow = $this->prepareRowForJson($row);
     	$entry['data'] = json_encode($tableRow);
     	$row = $entry;
     }
 
-    protected function validateRow(&$row)
+    public function validateRow(&$row)
+    {
+        return $row;
+    }
+
+    protected function _validateRow(&$row)
     {
     	$this->currentRow = $row;
     	$processColumns = $this->getProcessColumns();
     	$processColumns = array_combine(array_column($processColumns,'name'), $processColumns);
     	$flag = false;
-    	$tempRow = array_combine(array_keys($row),array_fill(0, count($row), NULL));
+    	$tempRow = getCurrentRowTmp();
     	
     	foreach ($this->currentRow as $key => &$value) 
     	{
@@ -329,6 +336,7 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     		$row = $tempRow;
     		throw new Exception("Invalid Row", 1);
     	}
+        $this->validateRow($row);
     }
 
     public function validateRowValue($value,$processColumnRow)
@@ -374,22 +382,26 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 				$this->addDatas($key,array_combine($this->getHeaders(), $value));
     		}
 		}
-
-		$this->validateData();
+        $data = $this->getDatas();
+        $path = array_column($this->getDatas(),'path');
+        array_multisort($path,SORT_ASC,SORT_STRING,$data);
+        $this->setDatas($data);
     }
 
     public function generateInvalidDataReport()
     {
         $csv = new Varien_File_Csv();
         $data = $this->getInvalidDatas();
-        array_splice($data, 0,0,[$this->getHeaders()]);
-        $csv->saveData($this->getFilePath(). DS .'invalid.csv',$data);
+        $headers = $this->getHeaders();
+        $headers[] = 'message';
+        array_splice($data, 0,0,[$headers]);
+        $csv->saveData($this->getFilePath(). DS .'invalid' . DS . $this->getProcess()->getFileName() ,$data);
     }
 
     public function processEntries()
     {
     	$entryModel = Mage::getModel('process/entry');
-    	$entryModel->getResource()->getReadConnection()->insertMultiple('process_entry',$this->getDatas());
+        $entryModel->getResource()->getReadConnection()->insertOnDuplicate('process_entry',$this->getDatas());
     }
 
     public function prepareJsonData($row)
@@ -405,6 +417,7 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     public function verify()
     {
     	$this->readFile();
+        $this->validateData();
     	$this->generateInvalidDataReport();
     	$this->processEntries();
     }
@@ -428,9 +441,11 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
                 ->limit($this->getProcess()->getData('per_request_count'));
         
         $entryData = $entry->getResource()->getReadConnection()->fetchAll($select);
-        if(!$entryData){
-            throw new Exception("No recored remaining to execte", 1);
+        if(!$entryData)
+        {
+            throw new Exception("No record remaining to execte", 1);
         }
+
         $where = 'entry_id IN('.implode(',',array_column($entryData,'entry_id')).')';
         $update = Mage::getSingleton('core/resource')->getConnection('core_write');
         $update->update($entry->getResource()->getMainTable(), ['start_time' => $time],$where);
