@@ -1,5 +1,4 @@
 <?php
-
 class Pl_Product_Block_Adminhtml_Product_Index_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
     public function __construct()
@@ -14,6 +13,11 @@ class Pl_Product_Block_Adminhtml_Product_Index_Grid extends Mage_Adminhtml_Block
     protected function _prepareCollection()
     {
         $collection = Mage::getResourceModel('product/product_collection');
+        foreach ($collection->getItems() as $col)
+        {
+            $categoryModel = Mage::getModel('category/category')->load($col->category_id);
+            $col->category = $categoryModel->getPath();
+        }
         $this->setCollection($collection);
         return parent::_prepareCollection();
     }
@@ -30,6 +34,11 @@ class Pl_Product_Block_Adminhtml_Product_Index_Grid extends Mage_Adminhtml_Block
         $this->addColumn('name', array(
             'header' => Mage::helper('product')->__('Name'),
             'index' => 'name',
+        ));
+
+        $this->addColumn('category', array(
+            'header' => Mage::helper('product')->__('Category'),
+            'index' => 'category',
         ));
 
         $this->addColumn('sku', array(

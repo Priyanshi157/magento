@@ -19,6 +19,12 @@ class Pl_Process_Block_Adminhtml_Column_Edit_Tab_Form extends Mage_Adminhtml_Blo
            'name' => 'process_id',
            'options' => Mage::getModel('process/column')->getProcessName(),
        ));
+
+        $fieldset->addField('sample_data', 'text', array(
+           'label' => Mage::helper('process')->__('Sample Data'),
+           'class' => 'required-entry',
+           'name' => 'sample_data',
+       ));
         
        $fieldset->addField('type_cast', 'select', array(
            'label' => Mage::helper('process')->__('Casting Type'),

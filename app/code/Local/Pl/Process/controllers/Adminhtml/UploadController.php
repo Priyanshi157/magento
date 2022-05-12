@@ -164,7 +164,10 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
             }
 
             $requestModel->setProcess($process)->execute();
-            //sleep(2);
+            // echo "<pre>";
+            // print_r($requestModel);
+            // exit;
+            sleep(2);
             $response['message'] = 'Complete '.$sessionProcessEntry['currentRequest'] . " out of ".$sessionProcessEntry['totalRequest'];
             $response['current'] = $sessionProcessEntry['currentRequest'] + 1;
             if($sessionProcessEntry['currentRequest'] == $sessionProcessEntry['totalRequest'])
