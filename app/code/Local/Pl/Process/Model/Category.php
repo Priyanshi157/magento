@@ -25,7 +25,7 @@ class Pl_Process_Model_Category extends Pl_Process_Model_Process_Abstract
     {
         if (!$this->categoriesPath) 
         {
-            $this->categoriesPath = array_flip(Mage::getModel('category/category')->getCategoryToPath());
+            $this->categoriesPath = array_flip(Mage::getModel('category/category')->getPath());
             $this->categoriesPath['Root'] = null;
         }
         $this->validateParent($row);
@@ -93,7 +93,7 @@ class Pl_Process_Model_Category extends Pl_Process_Model_Process_Abstract
     {
         if (!$this->categoriesPath) 
         {
-            $this->categoriesPath = array_flip(Mage::getModel('category/category')->getCategoryToPath());
+            $this->categoriesPath = array_flip(Mage::getModel('category/category')->getPath());
             $this->categoriesPath['Root'] = null;
         }
         
@@ -127,4 +127,34 @@ class Pl_Process_Model_Category extends Pl_Process_Model_Process_Abstract
         }
         return true;
 	}
+
+    public function getPaths()
+    {
+        $categoryModel = Mage::getModel('category/category');
+        $selectQuery = $categoryModel->getCollection()->getSelect();
+        $categories = $categoryModel->getResource()->getReadConnection()->fetchAll($selectQuery);
+        $finalCategories = [];
+        foreach ($categories as $key => $category) 
+        {
+            $category_id = $category['category_id'];
+            $path = $category['path'];
+            $finalPath = NULL;
+            $path = explode("/",$path);
+            foreach ($path as $path1) 
+            {
+                $select = $categoryModel->getCollection()->getSelect()->where("category_id = ?",$path1);
+                $data = $categoryModel->getResource()->getReadConnection()->fetchAll($select);
+                if($path1 != $category_id)
+                {
+                    $finalPath .= $data[0]['name'] ."/";
+                }
+                else
+                {
+                    $finalPath .= $data[0]['name'];
+                }
+            }
+            $finalCategories[$category_id] = $finalPath;
+        }
+        return $finalCategories;
+    }
 }

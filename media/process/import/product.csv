@@ -1,0 +1,11 @@
+index,name,sku,price,cost_price,status,category_id
+1,product1,sku1,100,100,active,Bedroom
+2,product2,sku2,100,100,active,Bedroom/Bed
+3,product3,sku3,100,100,active,Bedroom/Bed/Headboard
+4,product4,sku4,100,100,active,Bedroom/Bed/Footboard
+5,product5,sku5,100,100,active,Bedroom/Dresser
+6,product6,sku6,100,100,active,Bedroom/Nightstand
+7,product7,sku7,100,100,active,Bedroom/Bench
+8,product8,sku8,100,100,active,Laptop
+9,product9,sku9,100,100,active,Laptop
+10,product10,sku10,100,100,active,Laptop

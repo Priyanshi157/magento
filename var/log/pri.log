@@ -1,0 +1,162 @@
+2022-05-13T05:53:53+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [entry_id] => 110
+            [process_id] => 8
+            [identifier] => sku1
+            [data] => {"name":"product1","sku":"sku1","price":"100","cost_price":"100","status":"active","category_id":22}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [1] => Array
+        (
+            [entry_id] => 111
+            [process_id] => 8
+            [identifier] => sku2
+            [data] => {"name":"product2","sku":"sku2","price":"100","cost_price":"100","status":"active","category_id":23}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [2] => Array
+        (
+            [entry_id] => 112
+            [process_id] => 8
+            [identifier] => sku3
+            [data] => {"name":"product3","sku":"sku3","price":"100","cost_price":"100","status":"active","category_id":25}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [3] => Array
+        (
+            [entry_id] => 113
+            [process_id] => 8
+            [identifier] => sku4
+            [data] => {"name":"product4","sku":"sku4","price":"100","cost_price":"100","status":"active","category_id":24}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [4] => Array
+        (
+            [entry_id] => 114
+            [process_id] => 8
+            [identifier] => sku5
+            [data] => {"name":"product5","sku":"sku5","price":"100","cost_price":"100","status":"active","category_id":27}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [5] => Array
+        (
+            [entry_id] => 115
+            [process_id] => 8
+            [identifier] => sku6
+            [data] => {"name":"product6","sku":"sku6","price":"100","cost_price":"100","status":"active","category_id":28}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [6] => Array
+        (
+            [entry_id] => 116
+            [process_id] => 8
+            [identifier] => sku7
+            [data] => {"name":"product7","sku":"sku7","price":"100","cost_price":"100","status":"active","category_id":26}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+)
+
+2022-05-13T05:56:17+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [entry_id] => 117
+            [process_id] => 8
+            [identifier] => sku1
+            [data] => {"name":"product1","sku":"sku1","price":"100","cost_price":"100","status":"active","category_id":22}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [1] => Array
+        (
+            [entry_id] => 118
+            [process_id] => 8
+            [identifier] => sku2
+            [data] => {"name":"product2","sku":"sku2","price":"100","cost_price":"100","status":"active","category_id":23}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [2] => Array
+        (
+            [entry_id] => 119
+            [process_id] => 8
+            [identifier] => sku3
+            [data] => {"name":"product3","sku":"sku3","price":"100","cost_price":"100","status":"active","category_id":25}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [3] => Array
+        (
+            [entry_id] => 120
+            [process_id] => 8
+            [identifier] => sku4
+            [data] => {"name":"product4","sku":"sku4","price":"100","cost_price":"100","status":"active","category_id":24}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [4] => Array
+        (
+            [entry_id] => 121
+            [process_id] => 8
+            [identifier] => sku5
+            [data] => {"name":"product5","sku":"sku5","price":"100","cost_price":"100","status":"active","category_id":27}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [5] => Array
+        (
+            [entry_id] => 122
+            [process_id] => 8
+            [identifier] => sku6
+            [data] => {"name":"product6","sku":"sku6","price":"100","cost_price":"100","status":"active","category_id":28}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+    [6] => Array
+        (
+            [entry_id] => 123
+            [process_id] => 8
+            [identifier] => sku7
+            [data] => {"name":"product7","sku":"sku7","price":"100","cost_price":"100","status":"active","category_id":26}
+            [start_time] => 
+            [end_time] => 
+            [created_date] => 
+        )
+
+)
+
