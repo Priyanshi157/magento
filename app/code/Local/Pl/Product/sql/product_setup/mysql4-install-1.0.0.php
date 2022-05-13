@@ -11,8 +11,8 @@ CREATE TABLE {$this->getTable('product')} (
   `price` int(8) NOT NULL DEFAULT '0',
   `cost_price` int(8) NOT NULL DEFAULT '0',
   `status` tinyint(1) NOT NULL default '2',
-  `createdAt` DATETIME NOT NULL default CURRENT_TIMESTAMP,
-  `updatedAt` DATETIME NULL,
+  `created_at` DATETIME NOT NULL default CURRENT_TIMESTAMP,
+  `updated_at` DATETIME NULL,
   PRIMARY KEY (`product_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
     ");

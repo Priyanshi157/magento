@@ -77,6 +77,7 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
                 $model = Mage::getModel($process->getRequestModel());
                 $fileName = $model->setProcess($process)->verify();
             }
+
             Mage::getSingleton('adminhtml/session')->addSuccess("Verified Successfully.");
             $this->_redirect('process/adminhtml_process/index');
         } 
@@ -164,9 +165,6 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
             }
 
             $requestModel->setProcess($process)->execute();
-            // echo "<pre>";
-            // print_r($requestModel);
-            // exit;
             sleep(2);
             $response['message'] = 'Complete '.$sessionProcessEntry['currentRequest'] . " out of ".$sessionProcessEntry['totalRequest'];
             $response['current'] = $sessionProcessEntry['currentRequest'] + 1;

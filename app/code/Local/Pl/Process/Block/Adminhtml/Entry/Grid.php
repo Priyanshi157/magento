@@ -75,9 +75,21 @@ class Pl_Process_Block_Adminhtml_Entry_Grid extends Mage_Adminhtml_Block_Widget_
         return parent::_prepareColumns();
    	}
 
-   	public function getRowUrl($row)
+  public function getRowUrl($row)
 	{
 		return $this->getUrl('*/*/edit', array('id'=>$row->getId()));	
 	}
+
+  protected function _prepareMassaction()
+    {
+        $this->setMassactionIdField('process_id');
+        $this->getMassactionBlock()->setFormFieldName('process');
+        $this->getMassactionBlock()->addItem('delete', array(
+            'label'    => Mage::helper('process')->__('Delete'),
+            'url'      => $this->getUrl('*/*/massDelete'),
+            'confirm'  => Mage::helper('process')->__('Are you sure?')
+        ));
+        return $this;
+    }
    	
 }

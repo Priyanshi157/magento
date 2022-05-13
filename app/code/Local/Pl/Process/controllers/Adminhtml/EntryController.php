@@ -86,4 +86,31 @@ class Pl_Process_Adminhtml_EntryController extends Mage_Adminhtml_Controller_Act
             $this->_redirect('*/*/');   
         }
 	}
+
+	public function massDeleteAction() 
+    {
+        $sampleIds = $this->getRequest()->getParam('process');
+        if(!is_array($sampleIds))
+        {
+            Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Please select item(s)'));
+        } 
+        else 
+        {
+            try
+            {
+                foreach ($sampleIds as $sampleId)
+                {
+                    $sample = Mage::getModel('process/entry')->load($sampleId);
+                    $result = $sample->delete();
+                }
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                Mage::helper('adminhtml')->__('Total of %d record(s) were successfully deleted', count($sampleIds)));
+            } 
+            catch (Exception $e)
+            {
+                    Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            }
+        }
+        $this->_redirect('*/*/index');
+    }
 }

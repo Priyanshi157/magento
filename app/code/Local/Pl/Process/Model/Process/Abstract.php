@@ -20,11 +20,13 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 	{
 		return $this->process;
 	}
+
 	protected function setHeaders($headers)
 	{
 		$this->headers = $headers;
 		return $this;
 	}
+    
 	protected function getHeaders()
 	{
 		return $this->headers;
@@ -271,7 +273,7 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     	{
     		try 
     		{
-    			$this->validateRow($value);
+    			$this->_validateRow($value);
     			$this->prepareRow($value);				
     		} 
     		catch (Exception $e) 
@@ -302,13 +304,18 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         return $row;
     }
 
+    public function getCurrentRowTmp()
+    {
+        return array_combine(array_keys($this->currentRow), array_fill(0, count($this->currentRow), null));
+    }
+
     protected function _validateRow(&$row)
     {
     	$this->currentRow = $row;
     	$processColumns = $this->getProcessColumns();
     	$processColumns = array_combine(array_column($processColumns,'name'), $processColumns);
     	$flag = false;
-    	$tempRow = getCurrentRowTmp();
+    	$tempRow = $this->getCurrentRowTmp();
     	
     	foreach ($this->currentRow as $key => &$value) 
     	{
@@ -395,13 +402,17 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         $headers = $this->getHeaders();
         $headers[] = 'message';
         array_splice($data, 0,0,[$headers]);
-        $csv->saveData($this->getFilePath(). DS .'invalid' . DS . $this->getProcess()->getFileName() ,$data);
+        $csv->saveData($this->getFilePath(). DS .'invalid' . DS . $this->getProcess()->getFileName() ,$data);   
     }
 
     public function processEntries()
     {
     	$entryModel = Mage::getModel('process/entry');
-        $entryModel->getResource()->getReadConnection()->insertOnDuplicate('process_entry',$this->getDatas());
+        if($this->getDatas())
+        {
+            $entryModel->getResource()->getReadConnection()->insertOnDuplicate('process_entry',$this->getDatas());
+        }
+        
     }
 
     public function prepareJsonData($row)

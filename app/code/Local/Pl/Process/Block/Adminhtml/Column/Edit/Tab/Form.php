@@ -22,7 +22,7 @@ class Pl_Process_Block_Adminhtml_Column_Edit_Tab_Form extends Mage_Adminhtml_Blo
 
         $fieldset->addField('sample_data', 'text', array(
            'label' => Mage::helper('process')->__('Sample Data'),
-           'class' => 'required-entry',
+           //'class' => 'required-entry',
            'name' => 'sample_data',
        ));
         
