@@ -1,7 +1,8 @@
 <?php
 class Ccc_User_Helper_User extends Mage_Core_Helper_Abstract {
 
-	public function getAttributeInputTypes($inputType = null) {
+	public function getAttributeInputTypes($inputType = null) 
+	{
 		$inputTypes = [
 			'multiselect' => [
 				'backend_model' => 'eav/entity_attribute_backend_array',
@@ -12,27 +13,34 @@ class Ccc_User_Helper_User extends Mage_Core_Helper_Abstract {
 			],
 		];
 
-		if (is_null($inputType)) {
+		if (is_null($inputType)) 
+		{
 			return $inputTypes;
-		} else if (isset($inputTypes[$inputType])) {
+		} 
+		else if (isset($inputTypes[$inputType])) 
+		{
 			return $inputTypes[$inputType];
 		}
 		return null;
 	}
 
-	public function getAttributeBackendModelByInputType($inputType) {
+	public function getAttributeBackendModelByInputType($inputType) 
+	{
 		$inputTypes = $this->getAttributeInputTypes();
 
-		if (!empty($inputTypes[$inputType]['backend_model'])) {
+		if (!empty($inputTypes[$inputType]['backend_model'])) 
+		{
 			return $inputTypes[$inputType]['backend_model'];
 		}
 		return null;
 	}
 
-	public function getAttributeSourceModelByInputType($inputType) {
+	public function getAttributeSourceModelByInputType($inputType) 
+	{
 		$inputTypes = $this->getAttributeInputTypes();
 
-		if (!empty($inputTypes[$inputType]['source_model'])) {
+		if (!empty($inputTypes[$inputType]['source_model'])) 
+		{
 			return $inputTypes[$inputType]['source_model'];
 		}
 		return null;
