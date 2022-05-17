@@ -47,6 +47,15 @@ class Pl_Process_Model_Catalog_Product extends Pl_Process_Model_Process_Abstract
 				'user_defined' => $row['user_defined']
 			));
 		}
+
+		// $attributeId = $installer->getAttributeId(Mage_Catalog_Model_Product::ENTITY, $data['name']);
+		// $attributeSetId = $installer->getAttributeSetId(Mage_Catalog_Model_Product::ENTITY, $data['attribute_set']);
+		// $attributeGroupId = $installer->getAttributeGroup(Mage_Catalog_Model_Product::ENTITY, $attributeSetId, $data['group']);
+		// $installer->addAttributeToSet(Mage_Catalog_Model_Product::ENTITY,
+		// 	$attributeSetId,
+		// 	$attributeGroupId,
+		// 	$attributeId
+		// );
 		$installer->endSetup();
 		return true;
 	}

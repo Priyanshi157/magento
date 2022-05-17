@@ -3,3 +3,4 @@ index,group,attribute_set,type,input,label,required,name,visible,user_defined
 2,General,Custom,varchar,text,Product sku,TRUE,pro_sku,TRUE,TRUE
 3,General,Custom,int,text,Product quantity,TRUE,pro_quantity,TRUE,TRUE
 4,General,Custom,decimal,text,Product tax,TRUE,pro_tax,TRUE,TRUE
+5,General,Custom,varchar,select,product color,TRUE,pro_color,TRUE,TRUE
