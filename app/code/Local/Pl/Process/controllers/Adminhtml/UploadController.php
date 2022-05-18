@@ -14,15 +14,12 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
     public function uploadfileAction()
     {
         $processId = $this->getRequest()->getParam('id');
-		Mage::getSingleton('cms/wysiwyg_config')->setStoreId($this->getRequest()->getParam('store'));
 
-		$process = Mage::getModel('process/process')
-			->setStoreId($this->getRequest()->getParam('store', 0))
-			->load($processId);
+		$process = Mage::getModel('process/process')->load($processId);
 
 		Mage::register('current_process_media', $process);
 
-		if (!$processId) 
+		if (!$process->getId()) 
         {
 			$this->getSession()->addError(Mage::helper('process')->_('This process no longer exists'));
 			$this->_redirect('*/*/');
@@ -50,8 +47,7 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
     {
         try 
         {    
-            $process = Mage::getModel('process/process')
-                ->load($this->getRequest()->getParam('id'));
+            $process = Mage::getModel('process/process')->load($this->getRequest()->getParam('id'));
 
             $model= Mage::getModel('process/process_abstract')->setProcess($process)->getDefaultFile();
             $fileName   = 'sample.csv';
@@ -92,7 +88,9 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
     {
         try
         {
-            $this->_prepareProcessEntryVariable();
+            $processId = $this->getRequest()->getParam('id');
+            $process = Mage::getModel('process/process')->load($processId);
+            $this->_prepareProcessEntryVariable($process);
             $this->loadLayout();
             $this->renderLayout();
         }
@@ -112,10 +110,8 @@ class Pl_Process_Adminhtml_UploadController extends Mage_Adminhtml_Controller_Ac
         }
     }
 
-    public function _prepareProcessEntryVariable()
+    public function _prepareProcessEntryVariable($process)
     {
-        $processId = $this->getRequest()->getParam('id');
-        $process = Mage::getModel('process/process')->load($processId);
         $sessionProcessEntry = [
             'processId' => $process,
             'totalCount' => 0,

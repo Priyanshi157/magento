@@ -454,7 +454,7 @@ class Pl_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         $entryData = $entry->getResource()->getReadConnection()->fetchAll($select);
         if(!$entryData)
         {
-            throw new Exception("No record remaining to execte", 1);
+            throw new Exception("No record remaining to execte.", 1);
         }
 
         $where = 'entry_id IN('.implode(',',array_column($entryData,'entry_id')).')';
