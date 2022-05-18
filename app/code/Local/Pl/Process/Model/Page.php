@@ -26,9 +26,4 @@ class Pl_Process_Model_Page extends Pl_Process_Model_Process_Abstract
     	$entry['data'] = json_encode($tableRow);
     	$row = $entry;
     }
-
-    // public function validateRow($row)
-    // {
-    //     return $row;
-    // }
 }

@@ -36,8 +36,6 @@ class Pl_Process_Model_Catalog_Product extends Pl_Process_Model_Process_Abstract
 		{
 			$data = json_decode($entry['data'], true);
 			$installer->addAttribute('catalog_product', $data['name'], array(
-				'group' => $data['group'],
-				'attribute_set' => $data['attribute_set'],
 				'type' => $data['type'],
 				'label'=> $data['label'],
 				'input' => $data['input'],
@@ -48,14 +46,14 @@ class Pl_Process_Model_Catalog_Product extends Pl_Process_Model_Process_Abstract
 			));
 		}
 
-		// $attributeId = $installer->getAttributeId(Mage_Catalog_Model_Product::ENTITY, $data['name']);
-		// $attributeSetId = $installer->getAttributeSetId(Mage_Catalog_Model_Product::ENTITY, $data['attribute_set']);
-		// $attributeGroupId = $installer->getAttributeGroup(Mage_Catalog_Model_Product::ENTITY, $attributeSetId, $data['group']);
-		// $installer->addAttributeToSet(Mage_Catalog_Model_Product::ENTITY,
-		// 	$attributeSetId,
-		// 	$attributeGroupId,
-		// 	$attributeId
-		// );
+		$attributeId = $installer->getAttributeId(Mage_Catalog_Model_Product::ENTITY, $data['name']);
+		$attributeSetId = $installer->getAttributeSetId(Mage_Catalog_Model_Product::ENTITY, $data['attribute_set']);
+		$attributeGroupId = $installer->getAttributeGroup(Mage_Catalog_Model_Product::ENTITY, $attributeSetId, $data['group']);
+		$installer->addAttributeToSet(Mage_Catalog_Model_Product::ENTITY,
+			$attributeSetId,
+			$attributeGroupId,
+			$attributeId
+		);
 		$installer->endSetup();
 		return true;
 	}

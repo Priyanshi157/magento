@@ -17,32 +17,8 @@ class Pl_Process_Model_Catalog_Option extends Pl_Process_Model_Process_Abstract
 
     public function validateRow(&$row)
     {
-        $this->validateAttributeCode($row);
-        $this->validateAttributeType($row);
         $this->validateAttributeOptions($row);
         return $row;
-    }
-
-    public function validateAttributeCode($row)
-    {
-        $attributeCode = $row['attribute_code'];
-        $attribute = Mage::getModel('eav/entity_attribute')->loadByCode('catalog_product', $attributeCode);
-        if(!$attribute->getId()) 
-        {
-            throw new Exception("Atrribute code not found", 1);
-        }
-        return true;
-    }
-
-    public function validateAttributeType($row)
-    {
-        $attributeCode = $row['attribute_code'];
-        $attribute = Mage::getModel('eav/entity_attribute')->loadByCode('catalog_product', $attributeCode);
-        if($attribute->getFrontendInput()!='select') 
-        {
-            throw new Exception("Atrribute input type wrong", 1);
-        }
-        return true;
     }
 
     public function validateAttributeOptions($row)
@@ -72,7 +48,8 @@ class Pl_Process_Model_Catalog_Option extends Pl_Process_Model_Process_Abstract
             $attributeCode = $optionData['attribute_code'];
             $attribute = Mage::getModel('eav/entity_attribute')->loadByCode('catalog_product', $attributeCode);
 
-             if($attribute->getId() && $attribute->getFrontendInput()=='select') {
+             if($attribute->getId() && $attribute->getFrontendInput()=='select') 
+             {
                 $newOptions = array('attribute_id' => $attribute->getId(),'values' => array($optionData['option_order']=>$optionData['option']));       
                 $installer->addAttributeOption($newOptions);
             }
